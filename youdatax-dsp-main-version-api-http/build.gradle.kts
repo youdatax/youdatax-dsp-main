@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Bayerische Motoren Werke Aktiengesellschaft (BMW AG) - initial API and implementation
- *
+ * \data-protocols\dsp\dsp-version\dsp-version-http-api
  */
 
 plugins {
