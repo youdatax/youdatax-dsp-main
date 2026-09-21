@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-negotiation-http-dispatcher</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-dsp-negotiation-http-dispatcher</name>
   <description>yospace-dsp-negotiation-http-dispatcher</description>
   

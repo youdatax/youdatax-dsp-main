@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-main-transfer-process-service-http-dispatcher</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-dsp-transfer-process-http-dispatcher</name>
   <description>yospace-dsp-transfer-process-http-dispatcher</description>
   
