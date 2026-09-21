@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Cofinity-X - initial API and implementation
- *
+ * \data-protocols\dsp\dsp-core\dsp-http-api-base-configuration
  */
 
 plugins {
