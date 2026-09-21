@@ -10,7 +10,7 @@
  *  Contributors:
  *       Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - initial API and implementation
  *       Cofinity-X - make DSP versions pluggable
- *
+ * \data-protocols\dsp\dsp-core\dsp-negotiation-http-dispatcher
  */
 
 plugins {
