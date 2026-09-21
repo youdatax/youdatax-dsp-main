@@ -1,0 +1,97 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.youdatax.dsp</groupId>
+  <artifactId>youdatax-dsp-version-http-api</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-dsp-version-http-api</name>
+  <description>yospace-dsp-version-http-api</description>
+  
+  <dependencies>  
+<!--
+    api(project(":spi:common:core-spi"))
+    api(project(":spi:common:json-ld-spi"))
+    api(project(":spi:common:transform-spi"))
+    api(project(":spi:common:web-spi"))
+    api(project(":data-protocols:dsp:dsp-http-spi"))
+    implementation(project(":extensions:common:http:lib:jersey-providers-lib"))
+    implementation(project(":data-protocols:dsp:dsp-lib:dsp-version-transform-lib"))
+
+    testImplementation(project(":core:common:junit"))
+    testImplementation(project(":extensions:common:json-ld"))
+    testImplementation(testFixtures(project(":extensions:common:http:jersey-core")))
+    testImplementation(libs.restAssured)  
+-->  
+<!--    api(project(":spi:common:core-spi"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>core-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>
+<!--    api(project(":spi:common:json-ld-spi"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>json-ld-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+<!--    api(project(":spi:common:transform-spi"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>transform-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+<!--    api(project(":spi:common:web-spi"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>web-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+<!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>dsp-http-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+<!--    implementation(project(":extensions:common:http:lib:jersey-providers-lib"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>jersey-providers-lib</artifactId>
+        <version>0.18.0</version>
+      </dependency>
+<!--    implementation(project(":data-protocols:dsp:dsp-lib:dsp-version-transform-lib")-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>dsp-version-transform-lib</artifactId>
+        <version>0.18.0</version>
+      </dependency>
+              
+<!--    testImplementation(project(":core:common:junit"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>    
+<!--    testImplementation(project(":extensions:common:json-ld"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>json-ld</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>    
+<!--    testImplementation(testFixtures(project(":extensions:common:http:jersey-core")))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>jersey-core</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>    
+<!--    testImplementation(libs.restAssured)  
+restAssured = { module = "io.rest-assured:rest-assured", version.ref = "restAssured" }-->
+       <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.5.6</version>
+        <scope>test</scope>
+      </dependency>   
+   </dependencies>
+</project>

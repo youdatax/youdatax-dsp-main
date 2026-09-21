@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.dsp</groupId>
+  <artifactId>youdatax-dsp-main-service-http-api-configuration</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-dsp-http-api-base-configuration</name>
+  <description>yospace-dsp-http-api-base-configuration</description>
+  
+  <dependencies>
+<!--    api(project(":spi:common:web-spi"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>web-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>
+<!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>dsp-http-spi</artifactId>
+        <version>0.18.0</version>
+      </dependency>
+<!--    implementation(project(":extensions:common:http:lib:jersey-providers-lib"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>jersey-providers-lib</artifactId>
+        <version>0.18.0</version>
+      </dependency>
+      
+<!--    testImplementation(project(":core:common:junit"))  -->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit</artifactId>
+        <version>0.18.0</version>
+      </dependency>  
+  </dependencies>      
+</project>
