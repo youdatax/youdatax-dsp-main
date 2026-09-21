@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.dsp</groupId>
+  <artifactId>youdatax-dsp-catalog-http-dispatcher</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <name>yospace-dsp-catalog-http-dispatcher</name>
+  <description>yospace-dsp-catalog-http-dispatcher</description>
+  
+  <dependencies>
+<!--    api(project(":data-protocols:dsp:dsp-core:dsp-http-core"))-->
+      <dependency>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-main-service-http</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
+      <dependency>
+        <groupId>com.yospace.dsp</groupId>
+        <artifactId>yospace-dsp-core-spi-http</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    
+<!--    api(project(":extensions:common:json-ld"))
+      <dependency>
+        <groupId>com.yospace.ext</groupId>
+        <artifactId>yospace-ext-type-service-json-ld</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>    -->
+<!--    api(project(":spi:control-plane:catalog-spi"))-->
+      <dependency>
+        <groupId>com.yospace.controlplane</groupId>
+        <artifactId>yospace-control-plane-spi-catalog</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+      
+<!--    testImplementation(testFixtures(project(":data-protocols:dsp:dsp-http-spi")))  -->
+    
+  </dependencies> 
+</project>
