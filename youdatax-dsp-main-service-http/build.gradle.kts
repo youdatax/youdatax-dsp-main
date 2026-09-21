@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - initial API and implementation
- *
+ * \data-protocols\dsp\dsp-core\dsp-http-core
  */
 
 plugins {
