@@ -15,17 +15,17 @@
       </dependency>
 <!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-spi-http</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-spi-http</artifactId>
+        <version>0.0.4.0</version>
       </dependency>     
 <!--    api(project(":extensions:common:json-ld"))-->
     
 <!--    api(project(":spi:control-plane:contract-spi"))-->
       <dependency>
-        <groupId>com.yospace.controlplane</groupId>
-        <artifactId>yospace-control-plane-spi-contract</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.controlp</groupId>
+        <artifactId>youdatax-control-plane-spi-contract</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    testImplementation(testFixtures(project(":data-protocols:dsp:dsp-http-spi")))  -->
     
