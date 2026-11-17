@@ -2,22 +2,22 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-main-service-http-api-configuration</artifactId>
-  <version>0.0.3.0</version>
+  <version>0.0.4.0</version>
   <name>yospace-dsp-http-api-base-configuration</name>
   <description>yospace-dsp-http-api-base-configuration</description>
   
   <dependencies>
 <!--    api(project(":spi:common:web-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>web-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-web</artifactId>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>dsp-http-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-spi-http</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    implementation(project(":extensions:common:http:lib:jersey-providers-lib"))-->
       <dependency>

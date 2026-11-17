@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-catalog-http-dispatcher</artifactId>
-  <version>0.0.3.0</version>
+  <version>0.0.4.0</version>
   <name>yospace-dsp-catalog-http-dispatcher</name>
   <description>yospace-dsp-catalog-http-dispatcher</description>
   
@@ -11,13 +11,13 @@
       <dependency>
         <groupId>org.youdatax.dsp</groupId>
         <artifactId>youdatax-dsp-main-service-http</artifactId> 
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-spi-http</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-spi-http</artifactId>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    api(project(":extensions:common:json-ld"))
       <dependency>
@@ -27,9 +27,9 @@
       </dependency>    -->
 <!--    api(project(":spi:control-plane:catalog-spi"))-->
       <dependency>
-        <groupId>com.yospace.controlplane</groupId>
-        <artifactId>yospace-control-plane-spi-catalog</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.controlp</groupId>
+        <artifactId>youdatax-control-plane-spi-catalog</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
       
 <!--    testImplementation(testFixtures(project(":data-protocols:dsp:dsp-http-spi")))  -->

@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.youdatax.dsp</groupId>
+  <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-version-http-api</artifactId>
-  <version>0.0.3.0</version>
+  <version>0.0.4.0</version>
   <name>yospace-dsp-version-http-api</name>
   <description>yospace-dsp-version-http-api</description>
   
@@ -23,33 +23,33 @@
 -->  
 <!--    api(project(":spi:common:core-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>core-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-common</artifactId>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":spi:common:json-ld-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>json-ld-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-json-ld</artifactId>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    api(project(":spi:common:transform-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>transform-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-transform</artifactId>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    api(project(":spi:common:web-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>web-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-web</artifactId>
+        <version>0.0.3.0</version>
       </dependency>    
 <!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>dsp-http-spi</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-spi-http</artifactId>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    implementation(project(":extensions:common:http:lib:jersey-providers-lib"))-->
       <dependency>
@@ -59,9 +59,9 @@
       </dependency>
 <!--    implementation(project(":data-protocols:dsp:dsp-lib:dsp-version-transform-lib")-->
       <dependency>
-        <groupId>org.eclipse.edc</groupId>
-        <artifactId>dsp-version-transform-lib</artifactId>
-        <version>0.18.0</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-version-lib-transform</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
               
 <!--    testImplementation(project(":core:common:junit"))-->
